@@ -66,7 +66,7 @@ This project helped me practice:
 
 How to Run
 1. Clone the repository:
-2. git clone YOUR_REPOSITORY_URL
+2. git clone https://github.com/Ini120/Calculator.git
 3. Open the project folder.
 4. Open index.html in your browser.
 
