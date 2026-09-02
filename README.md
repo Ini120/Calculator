@@ -64,6 +64,29 @@ This project helped me practice:
 - DOM manipulation
 - Event handling
 
+How to Run
+1. Clone the repository:
+2. git clone YOUR_REPOSITORY_URL
+3. Open the project folder.
+4. Open index.html in your browser.
+
+No additional installation or setup is required.
+
+Future Improvements
+
+Some improvements I may add in the future include:
+- Keyboard support
+- Calculation history
+- More advanced mathematical operations
+- Improved percentage behavior
+- Better error handling
+- Dark and light themes
+
+Author:
+Inioluwa Aiyenuyo
+
+This project is part of my journey learning JavaScript and improving my frontend development skills.
+
 ## Project Structure
 
 ```text
@@ -73,3 +96,4 @@ calculator/
 ├── styles.css
 ├── script.js
 └── README.md
+
