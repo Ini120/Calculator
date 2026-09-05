@@ -197,3 +197,124 @@ footer {
     
 }
 
+
+/* TABLET */
+@media (max-width: 768px) {
+
+    .calculator-container {
+        width: 350px;
+        height: 550px;
+        margin: 30px auto;
+        gap: 15px;
+    }
+
+    .display {
+        width: 90%;
+        height: 90px;
+        font-size: 28px;
+    }
+
+    .calculator-container .first-row,
+    .calculator-container .second-row,
+    .calculator-container .third-row,
+    .calculator-container .fourth-row,
+    .calculator-container .fifth-row {
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    .calculator-container .first-row button,
+    .calculator-container .second-row button,
+    .calculator-container .third-row button,
+    .calculator-container .fourth-row button,
+    .calculator-container .fifth-row button {
+        width: 70px;
+        height: 70px;
+        font-size: 22px;
+    }
+
+}
+
+
+/* MOBILE */
+@media (max-width: 480px) {
+
+    .calculator-container {
+        width: 90%;
+        height: auto;
+        min-height: 520px;
+        margin: 20px auto;
+        padding: 20px 0;
+        gap: 15px;
+    }
+
+    .display {
+        width: 85%;
+        height: 80px;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .calculator-container .first-row,
+    .calculator-container .second-row,
+    .calculator-container .third-row,
+    .calculator-container .fourth-row,
+    .calculator-container .fifth-row {
+        width: 100%;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .calculator-container .first-row button,
+    .calculator-container .second-row button,
+    .calculator-container .third-row button,
+    .calculator-container .fourth-row button,
+    .calculator-container .fifth-row button {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    footer {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+}
+
+
+/* SMALL MOBILE */
+@media (max-width: 360px) {
+
+    .calculator-container {
+        width: 95%;
+        min-height: 480px;
+        padding: 15px 0;
+        gap: 12px;
+    }
+
+    .display {
+        width: 85%;
+        height: 70px;
+        font-size: 22px;
+    }
+
+    .calculator-container .first-row,
+    .calculator-container .second-row,
+    .calculator-container .third-row,
+    .calculator-container .fourth-row,
+    .calculator-container .fifth-row {
+        gap: 7px;
+    }
+
+    .calculator-container .first-row button,
+    .calculator-container .second-row button,
+    .calculator-container .third-row button,
+    .calculator-container .fourth-row button,
+    .calculator-container .fifth-row button {
+        width: 55px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+}
